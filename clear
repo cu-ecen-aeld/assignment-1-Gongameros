@@ -1,0 +1,285 @@
+[33mcommit 1729edf18db1c960bb52a1522a4ff3bd82b2a07b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Gongameros <markiangonmark@gmail.com>
+Date:   Sat Apr 29 14:39:24 2023 +0300
+
+    Completed task
+
+[33mcommit 0c265763a06097b59dad6d38f54edbad85d6eeb2[m[33m ([m[1;31massignments-base/master[m[33m)[m
+Merge: e5fa1f0 8de9c85
+Author: Dan Walkes <daniel.walkes@colorado.edu>
+Date:   Sat Jan 14 18:17:14 2023 -0700
+
+    Merge pull request #11 from cu-ecen-aeld/update-assignment-autotest
+    
+    assignment-autotest: Go to latest automated tests
+
+[33mcommit 8de9c85cb76ab03f864ffc87fe3baf6a37ea1014[m[33m ([m[1;31massignments-base/update-assignment-autotest[m[33m)[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat Jan 14 18:16:00 2023 -0700
+
+    assignment-autotest: Go to latest automated tests
+    
+    Including fixes for assignment 1, assignment 3, assignments
+    8 and 9, and assignment 6.
+
+[33mcommit e5fa1f0172107727df691a33ce6fb770ab0fd16f[m
+Merge: 633c604 27c17d4
+Author: Dan Walkes <daniel.walkes@colorado.edu>
+Date:   Sat Jan 14 17:52:40 2023 -0700
+
+    Merge pull request #5 from cu-ecen-aeld/yaml-fix-a1
+    
+    yaml fix for A1
+
+[33mcommit 27c17d44b2700bb5e0cdecb455f8c5d8560112c9[m[33m ([m[1;31massignments-base/yaml-fix-a1[m[33m)[m
+Author: Hemanth Nandish <hemanthluvsfifa@gmail.com>
+Date:   Sun Oct 2 21:06:39 2022 -0600
+
+    github-actions: Don't re-run on tags
+    
+    Support running github actions on any branch but do
+    not run if the tag changes or is added to a specific
+    commit.  This prevents extra actions from being run
+    when a branch is created from an existing commit and
+    only results in a new actions run if/when a new commit
+    is pushed on the resulting branch.
+
+[33mcommit 633c604ef9f176abe0202c3c776fbf983a1fdfd0[m
+Author: Hemanth Nandish <hemanthluvsfifa@gmail.com>
+Date:   Sun Sep 11 02:13:18 2022 -0600
+
+    Update finder-test.sh (#4)
+    
+    * Update finder-test.sh
+    
+    Modify WRITEDIR to ensure writer.sh creates missing directories
+    
+    * Update finder-test.sh
+    
+    Modify WRITEDIR to ensure writer.sh creates missing directories
+    
+    * finder-test.sh: update to remove /tmp/aeld-data directories
+    
+    * finder-test.sh: update to remove /tmp/aeld-data directories
+
+[33mcommit 78dd304a3a05a1acc9854a1282f15c4b6fefd9b1[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sun May 22 16:10:41 2022 -0600
+
+    Fix comment in CMakeLists
+
+[33mcommit e861c03b391b1589e540b72386bde68105283aff[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sun May 22 16:07:19 2022 -0600
+
+    Use updated path to assignment autotest submodule
+
+[33mcommit 20217301897b6ec2459031e217f6965b6ea8d933[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Fri May 13 17:42:42 2022 -0600
+
+    Latest assignment autotest
+
+[33mcommit 3e2a9324591ac9828f52a045e675e05d526c1dc7[m
+Author: Dan Walkes <walkes@colorado.edu>
+Date:   Mon Jan 10 19:45:32 2022 -0700
+
+    Replace git checkout submodule action
+    
+    This action is deprecated by the author and no longer works properly.
+
+[33mcommit 1aca481f18519162ce075e2cc8e6a78abe505259[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sun Sep 5 16:15:11 2021 -0600
+
+    Update assignment tests
+    
+    To pull in fixes for assignment 1/2 autograder
+
+[33mcommit 90cabecdad0e7c0348bcba7fd084e0e17bc23af0[m
+Author: Dan Walkes <daniel.walkes@colorado.edu>
+Date:   Sat Aug 28 10:27:47 2021 -0600
+
+    Update README.md
+
+[33mcommit 6c8d30e60bf0d2931bf524197bacb49a5b4239f0[m
+Author: Dan Walkes <daniel.walkes@colorado.edu>
+Date:   Sat Aug 21 16:56:29 2021 -0600
+
+    Update README.md
+
+[33mcommit a84bd2d810fff69a6e21a10879860db565f5186f[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat Jun 5 16:53:39 2021 -0600
+
+    Latest assignment autotest repo
+
+[33mcommit 91988a73ed022082ab13a4739bb38967fbb0a6db[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat Jun 5 16:46:10 2021 -0600
+
+    Use self hosted runner
+
+[33mcommit 758fe00c474d7f1becbc9894997d7e2fec57b930[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Mon May 31 15:25:03 2021 -0600
+
+    Use shell script for finder implementation
+
+[33mcommit be364f31ee1ec19718f966dd6346ac40e657c8a2[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Mon May 31 15:08:08 2021 -0600
+
+    Fix paths in README
+
+[33mcommit a81bb485c13a23687a72a87b6341114636019964[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Mon May 31 15:02:39 2021 -0600
+
+    Add github actions
+
+[33mcommit b52aed89fdfc409274d831f2374e2689b495825c[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Mon May 31 14:57:32 2021 -0600
+
+    Fall 21 assignment 1 cleanup
+
+[33mcommit 807de20b9c7ab7b99500bffe3b7825e344d89ac1[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Tue Aug 11 23:19:52 2020 -0600
+
+    Latest test script
+    
+    Based on working assignment 4 implementation
+
+[33mcommit f2eca01c0b9dc5b656ac299c5b6117518196130a[m
+Merge: be5241d 82b8514
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sun Jun 21 17:44:55 2020 -0600
+
+    Merge branch 'assignment1'
+
+[33mcommit 82b8514fcf42cfcc61f2253d3c3b87dd51fe5176[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sun Jun 21 17:42:08 2020 -0600
+
+    Fix comments
+
+[33mcommit be5241d556bb5d2485c5a52d12d623dbff3b68c8[m
+Merge: 4d17e7a dbd4476
+Author: Dan Walkes <daniel.walkes@colorado.edu>
+Date:   Sat May 23 17:41:49 2020 -0600
+
+    Merge pull request #1 from cu-ecen-5013/assignment1
+    
+    Assignment1 Fall 2020
+
+[33mcommit dbd4476487b45a33597da07ba485479aa0b11ac5[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat May 23 17:37:25 2020 -0600
+
+    Updates for assignment 1
+    
+     - Use sh instead of bash.
+     - Obtain username from conf file.
+
+[33mcommit 65c307e47caf47d37e6fafc37a256976d2c37ff5[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat May 23 17:32:20 2020 -0600
+
+    Remove autotest-validate binary, add to gitignore
+
+[33mcommit 276d153c3ce88df87d05ed801f7f4315dc4dab5d[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat May 23 17:24:34 2020 -0600
+
+    Update comments for assignment 1
+
+[33mcommit 54d2ff7caff875aaeef6942ee1ccd79d488c92a9[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat May 23 17:20:49 2020 -0600
+
+    Rename to remove github from username ref
+
+[33mcommit 1e019d58a46229dac4d2fee55b47f5e7c2dbb207[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat May 23 17:02:01 2020 -0600
+
+    Additional files for assignment 1
+    
+    Add conf files, update readme, update CMakeLists.txt
+    and add student test files.
+    
+    Add test.sh file so students can validate their assignment
+    is working properly before submitting.
+
+[33mcommit 7c7faac063f126aefa872859b46347661d204360[m
+Author: Akshita Bhasin <akshita.bhasin@colorado.edu>
+Date:   Sat May 23 15:09:05 2020 -0600
+
+    Update assignemnt-autotest to latest, added TODO
+
+[33mcommit 944c885105c306f9030ab342e39990e4474b6ccb[m
+Author: Akshita Bhasin <akshita.bhasin@colorado.edu>
+Date:   Thu May 21 16:41:36 2020 -0600
+
+    Submodule added, test.sh and unity framework included
+
+[33mcommit dc7e75225ba580a8077fdf6cb4570c3424ffc17a[m
+Author: Akshita Bhasin <akshita.bhasin@colorado.edu>
+Date:   Wed May 20 15:05:16 2020 -0600
+
+    Added username for file name, and .txt eextesnion
+
+[33mcommit 4d17e7a72409a5aae39a2d86d8b295f23a5a70db[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sun Jan 12 13:43:28 2020 -0700
+
+    Modifications for Spring 2020 semester
+    
+    * Use aesd instead of 5013 name
+    * Get rid of output file
+
+[33mcommit adb26dec614e88a1c829c4936d21ff06e2e338e7[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Sat Jan 11 20:25:50 2020 -0700
+
+    Comment out writer line
+
+[33mcommit c725b8293b3f40d1c1b6e4563bd6a0a647b2ef31[m
+Author: Siddhant Jajoo <sija6678@colorado.edu>
+Date:   Tue Sep 3 21:51:45 2019 -0600
+
+    MATCHSTR updated
+
+[33mcommit 56decec2520f5059f7aa89aa7e2858e52b0cc6a0[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Tue Sep 3 14:41:51 2019 -0600
+
+    Remove rogue $i
+
+[33mcommit 381e10d49840d9e7c2b4e875401e32444ad5d058[m
+Author: Dan Walkes <daniel.walkes@colorado.edu>
+Date:   Sun Aug 11 11:09:11 2019 -0600
+
+    Update README.md
+    
+    Add git setup instructions
+
+[33mcommit 63e69dfc4be4fcf7b56664185db60047cd00ed5a[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Fri Jul 12 08:52:30 2019 -0600
+
+    Add merge assist blocks
+
+[33mcommit c5b608b9ea0df424009615a485af42e17f376948[m
+Author: Dan Walkes <danwalkes@trellis-logic.com>
+Date:   Fri Jul 12 08:37:46 2019 -0600
+
+    Assignment 1 base code
+
+[33mcommit 5af5b40f43ef05aaf842a816be8af17b9c7d1010[m
+Author: Dan Walkes <danwalkes@gmail.com>
+Date:   Mon Jul 8 22:07:12 2019 -0600
+
+    Initial commit
